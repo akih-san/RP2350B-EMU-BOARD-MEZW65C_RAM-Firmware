@@ -1,0 +1,9 @@
+diskdef dos65cf - 8Mb
+  seclen 512
+  tracks 64
+  sectrk 256
+  blocksize 2048
+  maxdir 1024
+  skew 0
+  boottrk 0
+end

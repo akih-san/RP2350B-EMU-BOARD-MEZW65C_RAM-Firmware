@@ -1,0 +1,27 @@
+;
+; Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
+;
+; SPDX-License-Identifier: BSD-3-Clause
+;
+
+; SET pin 0 should be mapped to your GPIO
+
+.program make_irq
+.wrap_target
+	
+    set pins, 1		; set irq = 1
+
+    pull block		; wait pull until cpu request
+					; TX FIFO -> osr
+    out x, 32		; osr -> x (32bit)
+	mov isr, x		; isr <- x
+	push block		; write count to RX FIFO
+
+    set pins, 0		; Turn irq = 0
+lp1:
+    jmp x-- lp1		; Delay for (x + 1) cycles, x is a 32 bit number
+
+	mov isr, x		; isr <- x (x = 0)
+	push block		; write count to RX FIFO
+.wrap				; loop forever!
+
