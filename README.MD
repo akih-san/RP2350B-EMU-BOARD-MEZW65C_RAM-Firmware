@@ -17,3 +17,5 @@ RP2350B EMU board用として、MEZW65C_RAM Rev1.6用のFWを作成してみま�
 ### （RP2350B EMU board）
 ![](photos/RP2350B%20EMU%20board%20photo.jpg)<br>
 
+### （RP2350B EMU board）
+![](photos/RP2350B_and_MEZW65C_RAM.jpg)<br>
