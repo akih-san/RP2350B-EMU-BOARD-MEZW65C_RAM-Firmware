@@ -13,6 +13,7 @@ Raspberry pi pico/pico2は、EMUZ80に使われているPIC18F47/57Q43/Q83/Q84�
 RP2350B EMU board用として、MEZW65C_RAM Rev1.6用のFWを作成してみました。
 <br>
 
+
 （RP2350B EMU board）
 
 ![](photos/RP2350B EMU board photo.jpg)<br>
