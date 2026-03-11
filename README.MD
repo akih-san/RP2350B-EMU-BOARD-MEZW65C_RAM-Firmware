@@ -29,7 +29,6 @@ Raspberry pi pico/pico2は、EMUZ80に使われているPIC18F47/57Q43/Q83/Q84�
 - PICO02.CFG、PICO16.CFGを追加<br>
 MEZW65C_RAMへの供給クロックの周波数設定用のファイルとして、MEZW02.CFG、MEZW16.CFGがありますが、
 RP2350B EMU board用として、新たにPICO02.CFG、PICO16.CFGを追加しました。
-<br>
 - NMI発生のキー入力<br>
 PIC用のFWでは、CTL_Qを入力することでNMIを発生しましたが、CTL_Qを使用しているプログラムでCTL_Qが効かなくなるため、
 CTL_Qを2回連続で入力することで、NMIを発生するように変更しました。
