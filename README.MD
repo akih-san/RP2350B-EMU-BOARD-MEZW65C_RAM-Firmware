@@ -1,5 +1,3 @@
-Under construction
-
 # RP2350B EMU board
 
 RP2350B EMU board Rev 0.2は[EMUZ80](https://vintagechips.wordpress.com/2022/03/05/emuz80_reference/)ボード上で動作している
@@ -23,6 +21,7 @@ Raspberry pi pico/pico2は、EMUZ80に使われているPIC18F47/57Q43/Q83/Q84�
 # Firmware Rev1.0 for MEZW65C_RAM Rev1.6
 
 ### MEZW65C_RAM Rev1.6の詳細ついては、[MEZW65C_RAM-Rev2.1G](https://github.com/akih-san/MEZW65C_RAM-Rev2.1G)を見てください。<br>
+## 起動画面は[こちら](photos/起動画面.png)
 
 ## 機能変更と追加したファイル
 
