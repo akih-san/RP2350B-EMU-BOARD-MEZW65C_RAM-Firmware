@@ -48,6 +48,6 @@ RP2350B EMU boardのFWを作成するときに、参考にしたサイトや書�
 
 # 謝辞
 このボードを作成するに至った経緯は、[DragonBallEZ氏](https://github.com/kyo-ta04/)の[Super AKI-80の組み立て方](https://note.com/quiet_duck4046/n/n32906e1dfb96?sub_rt=share_sb)と、[Pico2ROMEmu_PCB](https://github.com/kyo-ta04/Pico2ROMEmu_PCB)がきっかけで、Raspberry pi pico/pico2に興味が湧いたことからはじまります。<br>
-「Norihiro Kumagai氏](https://github.com/tendai22)の[emuz80_pico2](https://github.com/tendai22/emuz80_pico2)は非常に参考になりました。
-参考にしたサイトと共に、とても感謝しています。
+[Norihiro Kumagai氏](https://github.com/tendai22)の[emuz80_pico2](https://github.com/tendai22/emuz80_pico2)は非常に参考になりました。<br>
+### 参考にしたサイトと共に、とても感謝しています。
 
