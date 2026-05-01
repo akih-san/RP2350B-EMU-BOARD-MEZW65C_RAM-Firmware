@@ -9,6 +9,7 @@ Raspberry pi pico/pico2は、EMUZ80に使われているPIC18F47/57Q43/Q83/Q84�
 ### RP2350B EMU board用として、MEZW65C_RAM Rev1.6用のFWを作成してみました。
 <br>
 ## (2026/5/1) W65C816S issue
+
 W65C816Sが動作が不安定な問題が発生しています。この件に関して原因を特定することが出来ました。詳細については、[こちら](https://x.com/akih_san/status/2042475788587712836)
 この問題を解決するためには、基板を改版する必要があります。したがって、RP2350B EMU board Rev 0.2ではW65C02Sのみが正常に動作します。
 
