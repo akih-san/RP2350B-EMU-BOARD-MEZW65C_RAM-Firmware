@@ -8,7 +8,9 @@ Raspberry pi pico/pico2は、EMUZ80に使われているPIC18F47/57Q43/Q83/Q84�
 制御用のマイコンが変わる為、ファームウェア（FW）を作り直す必要があります。[EMUZ80](https://vintagechips.wordpress.com/2022/03/05/emuz80_reference/)で、[Z80](https://github.com/akih-san/EMUZ80PIC_SD)、[8088](https://github.com/akih-san/MEZ88_RAM)、[8086](https://github.com/akih-san/MEZ86_RAM)、[6520/816](https://github.com/akih-san/MEZW65C_RAM-Rev2.1G)、[60008](https://github.com/akih-san/FUZIX-for-MEZ68K8_RAM-Rev2.1)用のFWを作成してきましたが、
 ### RP2350B EMU board用として、MEZW65C_RAM Rev1.6用のFWを作成してみました。
 <br>
-
+## (2026/5/1) W65C816S issue
+W65C816Sが動作が不安定な問題が発生しています。この件に関して原因を特定することが出来ました。詳細については、[こちら](https://x.com/akih_san/status/2042475788587712836)
+この問題を解決するためには、基板を改版する必要があります。したがって、RP2350B EMU board Rev 0.2ではW65C02Sのみが正常に動作します。
 
 ### （RP2350B EMU board）
 ![](photos/RP2350B%20EMU%20board%20photo.jpg)<br>
