@@ -13,7 +13,8 @@ Raspberry pi pico/pico2は、EMUZ80に使われているPIC18F47/57Q43/Q83/Q84�
 
 W65C816Sが動作が不安定な問題が発生しています。この件に関して原因を特定することが出来ました。<br>
 詳細については、[こちら](816issue/W65C816S%20issue.md)<br>
-この問題を解決するためには、基板を改版する必要があります。したがって、RP2350B EMU board Rev 0.2ではW65C02Sのみが正常に動作します。
+この問題を解決するためには、基板を改版する必要があります。<br>
+したがって、RP2350B EMU board Rev 0.2ではW65C02Sのみが正常に動作します。
 
 ### （RP2350B EMU board）
 ![](photos/RP2350B%20EMU%20board%20photo.jpg)<br>
